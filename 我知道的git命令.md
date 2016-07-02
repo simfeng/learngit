@@ -24,3 +24,10 @@
 - 查看本地代码库状态
 
         $ git status
+        
+- 删除文件  
+   
+        $ rm filename          
+        $ git rm filename
+       
+- 撤销未提交的更改，`git status`会有提示
