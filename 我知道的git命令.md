@@ -1,6 +1,10 @@
 ### 我知道的Git命令
 ----  
 
+- 初始化本地代码库
+
+        $ git init /path/to/your/dir
+
 - 克隆代码库  
 
         $ git clone git@github.com:simfeng/learngit.git
@@ -12,6 +16,10 @@
 - 提交   
 
         $ git commit -m "提交日志"
+
+- 添加文件修改并提交
+
+        $ git commit -a -m "提交日志"
 
 - 推送到远程代码库
     
