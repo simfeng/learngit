@@ -39,3 +39,31 @@
         $ git rm filename
        
 - 撤销未提交的更改，`git status`会有提示
+
+- 查看所有分支
+
+        $ git branch   
+
+- 新建分支
+
+        $ git branch new_branch
+
+- 切换分支
+
+        $ git checkout branch_name
+
+- 新建并切换到新分支
+        
+        $ git checkout -b new_branch
+
+- 将新分支推送到远程仓库
+
+        $ git push origin new_branch
+
+- 本地删除一个分支
+
+        $ git branch -d new_branch
+
+- 远程仓库删除一个分支(: 代表删除)
+
+        $ git push origin :new_branch
