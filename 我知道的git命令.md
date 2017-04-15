@@ -67,3 +67,11 @@
 - 远程仓库删除一个分支(: 代表删除)
 
         $ git push origin :new_branch
+
+- 将远程代码库更新到暂存区
+
+        $ git fetch
+
+- 将暂存区代码更新到工作区
+
+        $ git merge
