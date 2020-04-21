@@ -3,7 +3,7 @@ node {
     def customImage = docker.build("my-image:${env.BUILD_ID}")
 
     customImage.inside {
-        sh 'echo date'
+        sh 'echo hellodocker'
     }
     customImage.inside {
         sh 'echo test'
