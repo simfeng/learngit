@@ -1,3 +1,3 @@
 FROM nginx:latest 
-RUN cat `date` > /tmp/run_time
+RUN echo "hello world" 
 CMD echo "hello world"
