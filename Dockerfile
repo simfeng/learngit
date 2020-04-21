@@ -1,2 +1,2 @@
-FROM hello-world
+FROM alpine
 CMD echo "hello world"
