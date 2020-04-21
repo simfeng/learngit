@@ -10,6 +10,6 @@ node {
     }
     stage('Deploy') {
         echo 'Deploying....'
-        docker run --name nginx-test -p 8880:80 -d my-image:${env.BUILD_ID}
+        customImage.run('--name nginx-test -p 8880:80')
     }
 }
