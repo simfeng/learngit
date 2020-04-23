@@ -1,2 +1,5 @@
 ['remote "dvcremote"']
     url = ssh://deploy@119.3.10.144/tmp/dvc
+    keyfile = /Users/zhengquan/.ssh/id_rsa.pub
+['remote "sshwjc"']
+    url = ssh://root@wjc/tmp/dvc
