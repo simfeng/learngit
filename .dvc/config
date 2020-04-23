@@ -1,0 +1,2 @@
+['remote "dvcremote"']
+    url = ssh://deploy@hw01/tmp/dvc
